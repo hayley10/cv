@@ -5,8 +5,11 @@
 	<title>Monika Dyrka CV</title>
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap" rel="stylesheet">
+	
 	<style type="text/css">
 	 body{margin: 0;}
+	 .icons {text-align:center;}
+	 .data {padding-left:10px;}
 	 div{text-align:justify;}
 	 #headline {
 		 border: 2px solid #001326;
@@ -25,19 +28,31 @@
 	 .container {margin: 0px !important;
 	 display:grid;
 	 position:relative;
-	 grid-template-columns: auto 450px auto;
+	 grid-template-columns: auto 500px auto;
 	 grid-template-rows: auto 300px 340px;
 	 }
 
 	 .container-item {font-family:'Quicksand', sans-serif;
 	 font-size: 15px;
 	 padding: 10px;
+	 background: #b7b7b7;
 	 }
+	 
+	 .container-item2 {font-family:'Quicksand', sans-serif;
+	 font-size: 15px;
+	 padding: 10px;
+	 background: #c0c0c0;
+	 }
+
+	 div.container-item:hover {background:white;}
+
+	 div.container-item2:hover {background:white;}
 
 	 .header {font-family:'Quicksand', sans-serif;
 	 font-size: 15px;
 	 font-weight:700;}
 	</style>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
 		
@@ -51,15 +66,13 @@
 			<img src="zdjecie.jpg" height="300">   
 		</div>
 		<div class="container-item" style="
-		background: #b7b7b7;
 		grid-area: 2 / 2 / span 1 / span 1">
 			<h2 class="header">Klika słów o mnie</h2>
 			<p>Po 4 latach pracy w finansach postanowiłam przebranżowić się na programistkę, z czym miałam kontakt w trakcie studiów 
 				magisterskich - programowanie w SAS, R i VBA, praca z danymi statystycznymi. Obecnie kształcę się w kierunku front-end 
 				development a w przyszłości chciałabym rozwinąć się na full-stack development.</p>
 		</div>
-		<div class="container-item" style="
-		background: #c0c0c0;
+		<div class="container-item2" style="
 		grid-area: 2 / 3 / span 1 / span 1">
 			<h2 class="header">Wykształcenie</h2>
 				<p>2015-2017 Szkoła Główna Handlowa w Warszawie, studia magisterskie, Metody ilościowe w ekonomii i systemy informacyjne</p>
@@ -67,17 +80,25 @@
 				<p>2008-2011 XXXIII LO im. Mikołaja Kopernika w Warszawie, International Baccalaureate (IB) programme (Matura międzynarodowa)</p>
 		</div>
 		<div class="container-item" style="
-		background: #b7b7b7;
 		grid-area: 3 / 1 / span 1 / span 1">
-			<h2 class="header">Dane kontaktowe</h2>
-			<p>Telefon: +48 518 552 460</p>
-			<p>E-mail: dyrka.monika@gmail.com</p>
 			<h2 class="header">Języki obce</h2>
 			<p>Angielski - zaawansowany</p>
 			<p>Francuski - podstawowy</p>
+			<h2 class="header">Contact data</h2>
+			<table>
+			<tr>
+				<td class="icons"><i class="fas fa-phone"></i></td>
+				<td class="data"> +48 518 552 460</td>
+			</tr>
+			<tr>
+				<td class="icons"><i class="fas fa-envelope"></i></td>
+				<td class="data">dyrka.monika@gmail.com</td>
+			</tr>
+			<td class="icons"><i class="fas fa-map-marker-alt"></i></td> 
+			<td class="data">Warsaw</td>
+			</table>
 		</div>
-		<div class="container-item" style="
-		background: #c0c0c0;
+		<div class="container-item2" style="
 		grid-area: 3 / 2 / span 1 / span 1">
 			<h2 class="header">Języki i narzędzia</h2>
 			<ol>
@@ -90,7 +111,6 @@
 			<p>link do CV</p>
 		</div>
 		<div class="container-item" style="
-		background: #b7b7b7;
 		grid-area: 3 / 3 / span 1 / span 1">
 			<h2 class="header">Doświadczenie zawodowe</h2>
 				<p>3/2018 - 11/2019 Ernst&Young Audyt Polska Sp. z o.o. sp. k. Konsultant-Dział Audytu Instytucji Finansowych</p>
