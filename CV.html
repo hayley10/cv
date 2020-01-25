@@ -7,13 +7,14 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap" rel="stylesheet">
 	
 	<style type="text/css">
-	 body{margin: 0;}
+	 body{margin: 0;
+	 background-color: #d8d8d8;}
 	 .icons {text-align:center;}
-	 .data {padding-left:10px;}
+	 .data {padding-left:0px;}
 	 div{text-align:justify;}
 	 #headline {
-		 border: 2px solid #001326;
-	 	background-color:#001326;
+		 border: 2px solid #746b94;
+	 	background-color:#746b94;
 	 	position:relative;
 		font-size:80px;
 		font-weight:300;
@@ -28,29 +29,61 @@
 	 .container {margin: 0px !important;
 	 display:grid;
 	 position:relative;
-	 grid-template-columns: auto 500px auto;
-	 grid-template-rows: auto 300px 340px;
+	 grid-template-columns: 245px 500px auto;
+	 grid-template-rows: auto 270px 370px;
 	 }
+	 
 
-	 .container-item {font-family:'Quicksand', sans-serif;
+	 #ci1 {font-family:'Quicksand', sans-serif;
 	 font-size: 15px;
 	 padding: 10px;
 	 background: #b7b7b7;
+	 margin:10px;
 	 }
 	 
-	 .container-item2 {font-family:'Quicksand', sans-serif;
+	 #ci2 {font-family:'Quicksand', sans-serif;
 	 font-size: 15px;
 	 padding: 10px;
 	 background: #c0c0c0;
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+	 margin-right: 10px;
 	 }
 
-	 div.container-item:hover {background:white;}
+	 #ci3 {font-family:'Quicksand', sans-serif;
+	 font-size: 15px;
+	 padding: 10px;
+	 background: #d8d8d8;
+	 }
 
-	 div.container-item2:hover {background:white;}
+	 #ci4 {font-family:'Quicksand', sans-serif;
+	 font-size: 15px;
+	 padding: 10px;
+	 background: #c0c0c0;
+	 margin-left: 10px;
+	 margin-bottom: 10px;
+	 margin-right: 10px;
+	 }
+
+	 #ci5 {font-family:'Quicksand', sans-serif;
+	 font-size: 15px;
+	 padding: 10px;
+	 background: #b7b7b7;
+	 margin-right: 10px;
+	 margin-bottom: 10px;
+	 }
+
+	 div#ci1:hover {background:white;}
+	 div#ci2:hover {background:white;}
+	 div#ci4:hover {background:white;}
+	 div#ci5:hover {background:white;}
 
 	 .header {font-family:'Quicksand', sans-serif;
 	 font-size: 15px;
 	 font-weight:700;}
+
+	 td {min-width:80px;}
+
 	</style>
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
@@ -63,23 +96,36 @@
 			<div class="container-item-photo" style="
 			background: #a89c9b;
 			grid-area: 2 / 1 / span 1 / span 1">
-			<img src="zdjecie.jpg" height="300">   
+			<img src="zdjecie.jpg" height="270">   
 		</div>
-		<div class="container-item" style="
+		<div class="container-item" id="ci1" style="
 		grid-area: 2 / 2 / span 1 / span 1">
 			<h2 class="header">Klika słów o mnie</h2>
 			<p>Po 4 latach pracy w finansach postanowiłam przebranżowić się na programistkę, z czym miałam kontakt w trakcie studiów 
 				magisterskich - programowanie w SAS, R i VBA, praca z danymi statystycznymi. Obecnie kształcę się w kierunku front-end 
 				development a w przyszłości chciałabym rozwinąć się na full-stack development.</p>
+				<img src="woman.png" height="80">
 		</div>
-		<div class="container-item2" style="
+		<div class="container-item" id="ci2" style="
 		grid-area: 2 / 3 / span 1 / span 1">
-			<h2 class="header">Wykształcenie</h2>
-				<p>2015-2017 Szkoła Główna Handlowa w Warszawie, studia magisterskie, Metody ilościowe w ekonomii i systemy informacyjne</p>
-				<p>2011-2014 Szkoła Główna Handlowa w Warszawie, studia licencjackie, Finanse i rachunkowość</p>
-				<p>2008-2011 XXXIII LO im. Mikołaja Kopernika w Warszawie, International Baccalaureate (IB) programme (Matura międzynarodowa)</p>
+			<h2 class="header">Education</h2>
+			<table cellspacing="10">
+				<tr>
+				    <td>2015-2017</td> 
+				    <td>Szkoła Główna Handlowa w Warszawie, studia magisterskie, Metody ilościowe w ekonomii i systemy informacyjne</td>
+				</tr>
+				<tr>
+				    <td>2011-2014</td>  
+				    <td>Szkoła Główna Handlowa w Warszawie, studia licencjackie, Finanse i Rachunkowość </td>
+				</tr>
+				<tr>
+				    <td>2008-2011</td>
+					<td>XXXIII LO im. Mikołaja Kopernika w Warszawie, International Baccalaureate (IB) programme (Matura międzynarodowa)</td>
+				</tr>
+			</table>
+			<img src="educationhat.png" height="60">
 		</div>
-		<div class="container-item" style="
+		<div class="container-item" id="ci3" style="
 		grid-area: 3 / 1 / span 1 / span 1">
 			<h2 class="header">Języki obce</h2>
 			<p>Angielski - zaawansowany</p>
@@ -98,19 +144,20 @@
 			<td class="data">Warsaw</td>
 			</table>
 		</div>
-		<div class="container-item2" style="
+		<div class="container-item" id="ci4" style="
 		grid-area: 3 / 2 / span 1 / span 1">
 			<h2 class="header">Języki i narzędzia</h2>
-			<ol>
+			<ul>
 				<li>HTML - podstawy</li>
 				<li>CSS - podstawy</li>
 				<li>Java Script - rozpoczęta nauka</li>
 				<li>GIT - podstawowa umiejętność obsługi</li>
-			</ol>
+			</ul>
 			<h2 class="header">Projekty</h2>
 			<p>link do CV</p>
+			<img src="htmlicon.png" height="60">
 		</div>
-		<div class="container-item" style="
+		<div class="container-item" id="ci5" style="
 		grid-area: 3 / 3 / span 1 / span 1">
 			<h2 class="header">Doświadczenie zawodowe</h2>
 				<p>3/2018 - 11/2019 Ernst&Young Audyt Polska Sp. z o.o. sp. k. Konsultant-Dział Audytu Instytucji Finansowych</p>
