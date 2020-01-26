@@ -9,8 +9,7 @@
 	<style type="text/css">
 	 body{margin: 0;
 	 background-color: #C1Bebd;}
-	 .icons {text-align:center;}
-	 .data {padding-left:0px;}
+	 
 	 div{text-align:justify;}
 	 #headline {
 		 border: 2px solid #716c6a;
@@ -73,16 +72,27 @@
 	 margin-bottom: 10px;
 	 }
 
-	 div#ci1:hover {background:white;}
-	 div#ci2:hover {background:white;}
-	 div#ci4:hover {background:white;}
-	 div#ci5:hover {background:white;}
+	 div#ci1:hover {background:#dfc8bb;}
+	 div#ci2:hover {background:#dfc8bb;}
+	 div#ci4:hover {background:#dfc8bb;}
+	 div#ci5:hover {background:#dfc8bb;}
 
 	 .header {font-family:'Quicksand', sans-serif;
 	 font-size: 15px;
-	 font-weight:700;}
+	 font-weight: 700;}
 
-	 td {min-width:80px;}
+	 .header2 {font-family:'Quicksand', sans-serif;
+	 font-size: 15px;
+	 font-weight: 700;
+	 padding-top: 100px;}
+
+	 .Educationdates {min-width:80px;}
+	 .Experiencedates {min-width:130px;}
+	 .Experienceprograms {padding-bottom:20px;}
+	 #Highschool {padding-bottom:12px;}
+
+	 .icons {text-align:center;}
+	 .data {padding-left:10px;}
 
 	</style>
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -101,9 +111,9 @@
 		<div class="container-item" id="ci1" style="
 		grid-area: 2 / 2 / span 1 / span 1">
 			<h2 class="header">About me</h2>
-			<p>Po 4 latach pracy w finansach postanowiłam przebranżowić się na programistkę, z czym miałam kontakt w trakcie studiów 
-				magisterskich - programowanie w SAS, R i VBA, praca z danymi statystycznymi. Obecnie kształcę się w kierunku front-end 
-				development a w przyszłości chciałabym rozwinąć się na full-stack development.</p>
+			<p>After 4 years of working in finance, I've decided to change my professional path in direction of programming, which 
+				I had contact with during my Master's studies - programming in SAS, R and VBA, work with statistical data. I am currently 
+				learning front-end development and in the future I would like to become a full-stack developer.</p>
 				<img src="woman.png" height="80">
 		</div>
 		<div class="container-item" id="ci2" style="
@@ -111,16 +121,16 @@
 			<h2 class="header">Education</h2>
 			<table cellspacing="10">
 				<tr>
-				    <td>2015-2017</td> 
+				    <td class="Educationdates">2015-2017</td> 
 				    <td>Warsaw School of Economics, Master Degree, Quantitative Methods and Information Systems</td>
 				</tr>
 				<tr>
-				    <td>2011-2014</td>  
-				    <td>Warsaw School of Economics, studia licencjackie, Finance and Accounting </td>
+				    <td class="Educationdates">2011-2014</td>  
+				    <td>Warsaw School of Economics, Bachelor Degree, Finance and Accounting </td>
 				</tr>
 				<tr>
-				    <td>2008-2011</td>
-					<td>XXXIII LO im. Mikołaja Kopernika w Warszawie, International Baccalaureate (IB) programme</td>
+				    <td class="Educationdates">2008-2011</td>
+					<td id="Highschool">XXXIII Nicolaus Copernicus High School in Warsaw, International Baccalaureate (IB) programme</td>
 				</tr>
 			</table>
 			<img src="educationhat.png" height="60">
@@ -130,7 +140,7 @@
 			<h2 class="header">Languages</h2>
 			<p>English - advanced</p>
 			<p>French - basic</p>
-			<h2 class="header">Contact data</h2>
+			<h2 class="header2">Contact data</h2>
 			<table>
 			<tr>
 				<td class="icons"><i class="fas fa-phone"></i></td>
@@ -150,22 +160,45 @@
 			<ul>
 				<li>HTML - basics</li>
 				<li>CSS - basics</li>
-				<li>Java Script - rozpoczęta nauka</li>
-				<li>GIT - podstawowa umiejętność obsługi</li>
+				<li>Java Script - I've started learning</li>
+				<li>GIT - basic operating skills</li>
 			</ul>
 			<h2 class="header">Projects</h2>
+			<p>Internet CV</p>
 			<p>link do CV</p>
 			<img src="htmlicon.png" height="60">
 		</div>
 		<div class="container-item" id="ci5" style="
 		grid-area: 3 / 3 / span 1 / span 1">
-			<h2 class="header">Doświadczenie zawodowe</h2>
-				<p>3/2018 - 11/2019 Ernst&Young Audyt Polska Sp. z o.o. sp. k. Konsultant-Dział Audytu Instytucji Finansowych</p>
-				<p>Praca z programem Excel i wewnętrznym programem do dokumentowania projektu - Canvas</p>
-				<p>9/2017 - 2/2018 KPMG Usługi Księgowe Sp. z o.o. Młodsza Księgowa</p>
-				<p>Praca z systemami księgowymi Symfonia Finanse i Księgowość oraz Microsoft Navision</p>
-				<p>8/2015 - 8/2017 Pramex International Sp. z o.o. Księgowa</p>
-				<p>Praca z systemami finansowo-księgowymi: Symfonia Finanse i Księgowość, Symfonia Kadry i Płace, Płatnik. Współpraca nad wdrażaniem rozwiązań do automatyzacji pracy.</p>
+			<h2 class="header">Professional Experience</h2>
+				<table>
+					<tr>
+						<td class="Experiencedates">3/2018 - 11/2019</td>
+						<td>Ernst&Young Audyt Polska Sp. z o.o. sp. k. Consultant-Audit of Financial Institutions Department</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td class="Experienceprograms">Work with Excel and internal program for project documentation - Canvas</td>
+					</tr>
+					<tr>
+						<td class="Experiencedates">9/2017 - 2/2018</td>
+						<td>KPMG Usługi Księgowe Sp. z o.o. Junior Accountant</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td class="Experienceprograms">Work with accounting systems Symfonia Finanse i Księgowość and Microsoft Navision</td>
+					</tr>
+					<tr>
+						<td class="Experiencedates">8/2015 - 8/2017</td>
+						<td>Pramex International Sp. z o.o. Accountant</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>Work with financial and accounting systems: Symfonia Finanse i Księgowość, Symfonia Kadry i Płace, Płatnik. 
+							Cooperation on the implementation of work automation solutions.</td>
+					</tr>
+				</table>
+				<img src="briefcase.png" height="60">
 		</div>
 	</div>
 </body>
