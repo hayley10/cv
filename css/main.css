@@ -1,0 +1,213 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: #C1Bebd;
+   background-image: linear-gradient(315deg, #716c6a 0%, #C1Bebd 74%);
+   font-family:'Quicksand', sans-serif;
+}
+
+/* HEADER */
+
+header {
+   position: relative;
+   height: 65px;
+   background-color:#716c6a;
+   font-size: 3rem;
+   font-weight:300;
+   color: #d3d2d1;
+}
+
+header p {
+   text-align: center;
+   text-shadow: 1px 1px 3px #a7a3a0;
+}
+
+header span {
+   font-weight: bold;
+}
+
+/* ASIDE */
+
+#container {
+   display: grid;
+   grid-template-columns: 30% 70%;
+   position: relative;
+}
+
+aside {
+   grid-column: 1 / span 1;
+   font-size: 0.7rem;
+}
+
+aside i {
+   text-align:center;
+   max-height: 10px;
+}
+
+aside p {
+   padding-left: 8px;
+}
+
+aside h2 {
+   padding-left: 8px;
+}
+
+img {
+   width: 100%;
+}
+
+/* MAIN  */
+
+main {
+   grid-column: 2 / span 1;
+   position: relative;
+}
+
+.mainBoxes {
+   border-radius: 2%;
+   background: #ecddd5;
+   margin: 10px;
+   font-size: 0.7rem;
+   padding: 10px;
+}
+
+.mainBoxes h2 {
+   text-align: center;
+}
+
+.languagesProjects {
+   position: relative;
+   height: 180px;
+   background-image: url(../img/coding.jpg);
+   background-position: center;
+   background-size: cover;
+   color: #c1bfbd;
+}
+
+.languagesProjects-text {
+   position: absolute;
+   top: 10px;
+}
+
+.hero-bg {
+   width: 100%;
+   height: 100%;
+   background-color: rgba (0, 0, 0, .8);
+}
+
+.languagesProjects a {
+   text-decoration: none;
+   color: #c1bfbd;
+   cursor: pointer;
+}
+
+.languagesProjects ul {
+   list-style-position: inside;
+}
+
+.education {
+   position: relative;
+   min-height: 270px;
+   padding-left: 0;
+   background-image: url(../img/graduation-cap.jpg);
+   background-size: cover;
+   color: #c1bfbd;
+}
+
+.education-text {
+   position: absolute;
+   top: 10px;
+   left: 2px;
+}
+
+table {
+   border-spacing: 10px;
+   text-align: justify;
+}
+
+.Educationdates {
+   min-width:60px;
+   padding: 0;
+}
+.Experiencedates {
+   min-width:60px;
+}
+/*
+ #ci1 {
+     font-family:'Quicksand', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    background: #ecddd5;
+    margin:10px;
+}
+ 
+ #ci2 {
+    font-family:'Quicksand', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    background: #ecddd5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+ }
+
+ #ci3 {
+    font-family:'Quicksand', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    background: #c1bebd;
+ }
+
+ #ci4 {
+    font-family:'Quicksand', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    background: #ecddd5;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+ }
+
+ #ci5 {
+    font-family:'Quicksand', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    background: #ecddd5;
+    margin-right: 10px;
+    margin-bottom: 10px;
+ }
+
+ div#ci1:hover {background:#dfc8bb;}
+ div#ci2:hover {background:#dfc8bb;}
+ div#ci4:hover {background:#dfc8bb;}
+ div#ci5:hover {background:#dfc8bb;}
+
+ .header {
+    font-family:'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+ }
+
+ .header2 {
+    font-family:'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 100px;
+ }
+
+ .Educationdates {min-width:80px;}
+ .Experiencedates {min-width:130px;}
+ .Experienceprograms {padding-bottom:20px;}
+ #Highschool {padding-bottom:5px;}
+
+ .icons {
+    text-align:center;
+    max-height: 10px;
+}
+ .data {padding-left:10px;}
+
+ */
