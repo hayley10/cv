@@ -56,8 +56,38 @@ aside h2 {
    padding-left: 8px;
 }
 
+.aside-table {
+   table-layout: fixed;
+   width: 120px;
+   border-spacing: 0;
+   font-size: 0.5rem;
+}
+
+.aside-table td {
+   margin: 0;
+}
+
+aside table a {
+   text-decoration: none;
+   color: black;
+}
+
+aside table a:hover {
+   color: brown;
+   cursor: pointer;
+}
+
+.icons {
+   width: 18px;
+   font-size: 10px;
+   padding: 2px;
+}
+
 img {
    width: 100%;
+   border-radius: 5%;
+   margin: 5px;
+   margin-top: 10px;
 }
 
 /* MAIN  */
@@ -68,35 +98,42 @@ main {
 }
 
 .mainBoxes {
+   position: relative;
    border-radius: 2%;
    background: #ecddd5;
    margin: 10px;
    font-size: 0.7rem;
-   padding: 10px;
+   color: #dad9d8;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 
 .mainBoxes h2 {
    text-align: center;
 }
 
-.languagesProjects {
-   position: relative;
-   height: 180px;
-   background-image: url(../img/coding.jpg);
-   background-position: center;
-   background-size: cover;
-   color: #c1bfbd;
+.mainBoxes-text {
+   position: absolute;
+   padding: 10px;
+   text-align: justify;
 }
 
-.languagesProjects-text {
-   position: absolute;
-   top: 10px;
+.about-me {
+   background-image: url(../img/womanmount.jpg);
+   height: 180px;
+}
+
+.languagesProjects {
+   height: 180px;
+   background-image: url(../img/coding.jpg);
 }
 
 .hero-bg {
    width: 100%;
    height: 100%;
-   background-color: rgba (0, 0, 0, .8);
+   background-color: rgba(0, 0, 0, .75);
+   border-radius: 2%;
 }
 
 .languagesProjects a {
@@ -110,31 +147,38 @@ main {
 }
 
 .education {
-   position: relative;
-   min-height: 270px;
+   min-height: 250px;
    padding-left: 0;
    background-image: url(../img/graduation-cap.jpg);
-   background-size: cover;
-   color: #c1bfbd;
-}
-
-.education-text {
-   position: absolute;
-   top: 10px;
-   left: 2px;
 }
 
 table {
    border-spacing: 10px;
    text-align: justify;
+   table-layout: fixed;
+   border-spacing: 0 10px;
 }
 
 .Educationdates {
    min-width:60px;
    padding: 0;
 }
+
+.professionalExperience {
+   background-image: url(../img/work.jpg);
+   height: 400px;
+}
+
 .Experiencedates {
-   min-width:60px;
+   width:45px;
+   padding: 0;
+}
+
+.hero-bg-experience {
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, .8);
+   border-radius: 2%;
 }
 /*
  #ci1 {
