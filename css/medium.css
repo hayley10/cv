@@ -1,1 +1,51 @@
 /* (min-width: 768px) */
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-desktop {
+    display: block;
+}
+
+.nav-desktop li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-desktop li a {
+    padding: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    transition: color .3s;
+}
+
+.nav-desktop li a:hover {
+    color: rgb(0, 153, 255);
+}
+
+/* ABOUT-ME */
+
+#about-me {
+    grid-template-columns: 40% 60%;
+    height: 40vh;
+    margin-left: 10vw;
+ }
+ 
+ .about-me-photo img {
+    height: 40vh;
+ }
+
+ .about-me-text {
+     margin-right: 10vw;
+ }
+ 
+ .about-me-text h2 {
+    font-size: 1.2rem;
+ }
+ 
+ .about-me-text p {
+    padding-top: 3vh;
+    font-size: 1.2rem;
+ }

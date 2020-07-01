@@ -1,1 +1,11 @@
 /* (min-width: 992px) */
+
+/* ABOUT-ME */
+ 
+ .about-me-text h2 {
+    font-size: 1.5rem;
+ }
+ 
+ .about-me-text p {
+    font-size: 1.5rem;
+ }
