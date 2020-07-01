@@ -46,6 +46,106 @@
  }
  
  .about-me-text p {
-    padding-top: 3vh;
+    padding-top: 2vh;
     font-size: 1.2rem;
+ }
+
+ .hero-bg {
+    position: absolute;
+    display: none;
+    height: 0;
+    width: 0;
+ }
+
+ /* MAIN BOXES */
+
+ .mainBoxes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+ }
+
+ .mainBoxes h2 {
+    color: rgb(11, 127, 204);
+    font-size: 1.2rem;
+ }
+
+ .mainBoxes-image {
+    display: block;
+    width: auto;
+ }
+
+ /* LANGUAGES */
+
+ #languages {
+    background-image: none;
+    margin-top: 0;
+    margin-right: 10vw;
+    margin-left: 10vw;
+ }
+
+ .languages-image {
+    grid-column: 2 / span 1;
+    height: 28vh;
+ }
+
+ .languages-image img {
+     height: 100%;
+     width: 100%;
+     object-fit: contain;
+ }
+
+ .languages-text {
+    grid-column: 1 / span 1;
+    color: black;
+    padding-top: 0;
+ }
+
+ .languages-text ul {
+    font-size: 1.2rem;
+ }
+
+ .languages-text a {
+    color: black;
+    font-size: 1.2rem;
+ }
+
+ /* EDUCATION */
+
+ #education {
+    background-image: none;
+    margin-top: 0;
+    margin-right: 10vw;
+    margin-left: 10vw;
+ }
+
+ .education-image {
+    grid-column: 1 / span 1;
+    height: 28vh;
+ }
+
+ .education-image img {
+     height: 100%;
+     width: 100%;
+     object-fit: contain;
+ }
+
+ .education-text {
+    grid-column: 2 / span 1;
+    color: black;
+    padding-top: 0;
+ }
+
+ .education-text ul {
+    font-size: 1.2rem;
+ }
+
+ /* EXPERIENCE */
+
+ #experience {
+    background-image: none;
+ }
+
+ .experience-image {
+     grid-column: 2 / span 1;
+     height: 28vh;
  }
