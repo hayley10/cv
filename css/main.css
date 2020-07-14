@@ -9,8 +9,7 @@ html {
 }
 
 body {
-   background-color: #808080;
-   background-image: linear-gradient(326deg, #808080 0%, #C1Bebd 74%);
+   background-color: #c1bebd;
    font-family:'Quicksand', sans-serif;
 }
 
@@ -21,30 +20,24 @@ h2 {
 /* NAVIGATION */
 
 nav {
-   position: sticky;
-   top: 0;
-   height: 60px;
-   line-height: 60px;
-   background-color: rgb(194, 192, 192);
-   text-align: center;
-   overflow: hidden;
-   z-index: 1;
+   background-color: #303960;
 }
 
-.nav-mobile {
-   margin-right: 100%;
+nav a, i {
+   color: #ececec;
+   transition: color .3s;
 }
 
-.nav-mobile button {
-   padding: 0 30px;
-   line-height: 60px;
-   font-size: 30px;
-   background: none;
-   border: none;
+nav i {
+   padding: 10px;
 }
 
-.nav-desktop {
-   display: none;
+nav a:hover {
+   color: #704b41;
+}
+
+.navbar-brand {
+   font-weight: bold;
 }
 
 /* SECTIONS */
@@ -122,7 +115,7 @@ nav {
 }
 
 .mainBoxes-text h2 {
-   color: rgba(7, 89, 143, 0.87);
+   color: rgba(2, 37, 59, 0.87);
    font-size: 1rem;
    padding-bottom: 1.5vh;
 }
@@ -160,7 +153,7 @@ nav {
 .hero-bg {
    width: 100%;
    height: 100%;
-   background-color: rgba(112, 75, 56, 0.75);
+   background-color: rgba(193, 190, 189, 0.75);
    border-radius: 2%;
 }
 
@@ -175,6 +168,26 @@ nav {
 #experience {
    background-image: url(../img/work.jpg);
    height: 75vh;
+}
+
+/* FOOTER */
+
+footer {
+   position: fixed;
+   bottom: 0;
+   background-color: #303960;
+   width: 100%;
+   color: #ececec;
+   text-align: center;
+}
+
+.footer-container div{
+   display: inline-block;
+   margin: 3px 10px;
+}
+
+footer a {
+   color: #ececec;
 }
 
 /* ASIDE */

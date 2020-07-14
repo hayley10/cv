@@ -1,29 +1,5 @@
 /* (min-width: 768px) */
 
-.nav-mobile {
-    display: none;
-}
-
-.nav-desktop {
-    display: block;
-}
-
-.nav-desktop li {
-    list-style: none;
-    display: inline-block;
-}
-
-.nav-desktop li a {
-    padding: 30px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #333;
-    transition: color .3s;
-}
-
-.nav-desktop li a:hover {
-    color: rgb(0, 153, 255);
-}
 
 /* ABOUT-ME */
 
@@ -35,6 +11,7 @@
  
  .about-me-photo img {
     height: 40vh;
+    padding-top: 2vh;
  }
 
  .about-me-text {
@@ -43,6 +20,7 @@
  
  .about-me-text h2 {
     font-size: 1.2rem;
+    padding-top: 2vh;
  }
  
  .about-me-text p {
@@ -85,7 +63,7 @@
 
  .languages-image {
     grid-column: 2 / span 1;
-    height: 28vh;
+    height: 24vh;
  }
 
  .languages-image img {
@@ -109,11 +87,15 @@
     font-size: 1.2rem;
  }
 
+ .languages-text h2 {
+    padding-bottom: 0;
+ }
+
  /* EDUCATION */
 
  #education {
     background-image: none;
-    margin-top: 0;
+    margin-top: -10vh;
     margin-right: 10vw;
     margin-left: 10vw;
  }
@@ -121,6 +103,7 @@
  .education-image {
     grid-column: 1 / span 1;
     height: 28vh;
+    border: 1px solid black;
  }
 
  .education-image img {
@@ -133,6 +116,7 @@
     grid-column: 2 / span 1;
     color: black;
     padding-top: 0;
+    border: 1px solid black;
  }
 
  .education-text ul {
@@ -143,9 +127,18 @@
 
  #experience {
     background-image: none;
+    margin-top: 0;
+    margin-left: 10vw;
+    margin-right: 10vw;
  }
 
  .experience-image {
      grid-column: 2 / span 1;
      height: 28vh;
+ }
+
+ .experience-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
  }
