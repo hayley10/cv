@@ -9,54 +9,55 @@
 /* ABOUT-ME */
 
 #about-me {
-    grid-template-columns: 40% 60%;
-    height: 40vh;
-    margin-left: 10vw;
+   grid-template-columns: 40% 60%;
+   margin-left: 10vw;
+   height: 40vh;
+   border: 1px solid rgb(170, 166, 166);
  }
  
  .about-me-photo img {
-    height: 40vh;
-    margin-top: -6vh;
+   margin-top: -3vh;
+   height: 35vh;
  }
 
  .about-me-text {
-     margin-right: 10vw;
-     margin-top: -3vh;
+   margin-right: 10vw;
+   margin-top: -1vh;
  }
  
  .about-me-h2 h2 {
-    font-size: 1.5rem;
-    padding-top: 0;
+   padding-top: 0;
+   font-size: 1.5rem;
  }
  
  .about-me-text p {
-    padding-top: 2vh;
-    font-size: 1.2rem;
+   padding-top: 2vh;
+   font-size: 1.2rem;
  }
 
  .hero-bg {
-    position: absolute;
-    display: none;
-    height: 0;
-    width: 0;
+   position: absolute;
+   display: none;
+   height: 0;
+   width: 0;
  }
 
  /* MAIN BOXES */
 
  .mainBoxes {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    height: 34vh;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   height: 34vh;
  }
 
  .mainBoxes h2 {
-    font-size: 1.2rem;
-    padding-top: 1vh;
+   padding-top: 1vh;
+   font-size: 1.2rem;
  }
 
  .mainBoxes-image {
-    display: block;
-    width: auto;
+   display: block;
+   width: auto;
  }
 
  .mainBoxes table td {
@@ -66,99 +67,97 @@
  /* LANGUAGES */
 
  #languages {
-    background-image: none;
-    margin-top: 0;
-    margin-right: 10vw;
-    margin-left: 10vw;
+   margin-top: 1vh;
+   margin-right: 10vw;
+   margin-left: 10vw;
+   background-image: none;
  }
 
  .languages-image {
-    grid-column: 2 / span 1;
-    height: 24vh;
+   grid-column: 2 / span 1;
+   padding-top: 5vh;
+   height: 30vh;
  }
 
  .languages-image img {
-     height: 100%;
-     width: 100%;
-     object-fit: contain;
+   height: 100%;
+   width: 100%;
+   object-fit: contain;
  }
 
  .languages-text {
-    grid-column: 1 / span 1;
-    color: black;
-    padding-top: 0;
+   grid-column: 1 / span 1;
+   padding-top: 0;
+   color: rgb(51, 49, 49);
  }
 
  .languages-text ul {
-    font-size: 1.2rem;
+   font-size: 1.2rem;
  }
 
  .languages-text a {
-    color: black;
-    font-size: 1.2rem;
+   color: rgb(51, 49, 49);;
+   font-size: 1.2rem;
  }
 
  .languages-text h2 {
-    padding-bottom: 0;
+   padding-bottom: 0;
  }
 
  /* EDUCATION */
 
  #education {
-    background-image: none;
-    margin-right: 10vw;
-    margin-left: 10vw;
-    height: 37.5vh;
+   grid-template-columns: 40% 60%;
+   margin-right: 10vw;
+   margin-left: 10vw;
+   height: 37.5vh;
+   background-image: none;
  }
 
  .education-image {
-    grid-column: 1 / span 1;
-    height: 28vh;
+   grid-column: 1 / span 1;
+   height: 28vh;
  }
 
  .education-image img {
-     height: 100%;
-     width: 100%;
-     object-fit: contain;
+   height: 100%;
+   width: 100%;
+   object-fit: contain;
  }
 
  .education-text {
-    grid-column: 2 / span 1;
-    color: black;
-    padding-top: 0;
- }
-
- .education-text ul {
-    font-size: 1.2rem;
+   grid-column: 2 / span 1;
+   padding-top: 0;
+   color: rgb(51, 49, 49);
+   font-size: 1.05rem;
  }
 
  /* EXPERIENCE */
 
  #experience {
-    background-image: none;
-    margin-top: 0;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    height: 45vh;
-    display: block;
+   position: relative;
+   display: block;
+   margin-top: 0;
+   margin-left: 10vw;
+   margin-right: 10vw;
+   height: 40vh;
+   background-image: none;
  }
 
  .experience-image {
-     position: absolute;
-     right: 0;
-     height: 28vh;
-     float: right;
+   position: absolute;
+   right: 0;
+   top: 6vh;
+   display: none;
+   height: 28vh;
  }
 
  .experience-image img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    position: absolute;
-    right: 0;
+   width: 40vw;
  }
 
  #experience table td {
-   min-width: 15vw;
    padding-bottom: 1.2vh;
+   min-width: 15vw;
+   font-size: 1rem;
 }
