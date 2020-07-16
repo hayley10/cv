@@ -40,21 +40,21 @@ main {
    margin-top: 1vh;
 }
 
- .about-me-h2 h2 {
+.about-me-h2 h2 {
    padding-left: 2vw;
    font-size: 2rem;
- }
+}
  
 .about-me-text {
    margin-top: 2vh;
    margin-right: 5vw;
 }
 
- .about-me-text p {
+.about-me-text p {
    font-size: 1.2rem;
- }
+}
 
- /* LANGUAGES */
+/* LANGUAGES */
 
 #languages {
    margin-top: 3vh;
@@ -64,7 +64,7 @@ main {
    height: 38vh;
 }
 
- /* EDUCATION */
+/* EDUCATION */
 
 #education {
    margin-top: 3vh;
@@ -74,28 +74,28 @@ main {
    margin-top: 4vh;
 }
 
- /* EXPERIENCE */
+/* EXPERIENCE */
 
- #experience {
+#experience {
    display: grid;
    grid-template-columns: 60% 40%;
    margin-top: 3vh;
    padding-top: -10vh;
    height: 68vh;
- }
+}
 
- .experience-image {
+.experience-image {
    display: block;
    grid-column: 2/3;
    padding-top: 10vh;
    padding-right: 1vw;
- }
+}
 
- .experience-image img {
+.experience-image img {
    height: 30vh;
    width: 27vw;
- }
+}
 
- .experience-text {
+.experience-text {
    grid-column: 1/2;
- }
+}

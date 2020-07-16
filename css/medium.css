@@ -13,128 +13,128 @@
    margin-left: 10vw;
    height: 40vh;
    border: 1px solid rgb(170, 166, 166);
- }
+}
  
- .about-me-photo img {
+.about-me-photo img {
    margin-top: -3vh;
    height: 35vh;
- }
+}
 
- .about-me-text {
+.about-me-text {
    margin-right: 10vw;
    margin-top: -1vh;
- }
+}
  
- .about-me-h2 h2 {
+.about-me-h2 h2 {
    padding-top: 0;
    font-size: 1.5rem;
- }
+}
  
- .about-me-text p {
+.about-me-text p {
    padding-top: 2vh;
    font-size: 1.2rem;
- }
+}
 
- .hero-bg {
+.hero-bg {
    position: absolute;
    display: none;
    height: 0;
    width: 0;
- }
+}
 
- /* MAIN BOXES */
+/* MAIN BOXES */
 
- .mainBoxes {
+.mainBoxes {
    display: grid;
    grid-template-columns: 50% 50%;
    height: 34vh;
- }
+}
 
- .mainBoxes h2 {
+.mainBoxes h2 {
    padding-top: 1vh;
    font-size: 1.2rem;
- }
+}
 
- .mainBoxes-image {
+.mainBoxes-image {
    display: block;
    width: auto;
- }
+}
 
- .mainBoxes table td {
+.mainBoxes table td {
    min-width: 12vw;
- }
+}
 
- /* LANGUAGES */
+/* LANGUAGES */
 
- #languages {
+#languages {
    margin-top: 1vh;
    margin-right: 10vw;
    margin-left: 10vw;
    background-image: none;
- }
+}
 
- .languages-image {
+.languages-image {
    grid-column: 2 / span 1;
    padding-top: 5vh;
    height: 30vh;
- }
+}
 
- .languages-image img {
+.languages-image img {
    height: 100%;
    width: 100%;
    object-fit: contain;
- }
+}
 
- .languages-text {
+.languages-text {
    grid-column: 1 / span 1;
    padding-top: 0;
    color: rgb(51, 49, 49);
- }
+}
 
- .languages-text ul {
+.languages-text ul {
    font-size: 1.2rem;
- }
+}
 
- .languages-text a {
+.languages-text a {
    color: rgb(51, 49, 49);;
    font-size: 1.2rem;
- }
+}
 
- .languages-text h2 {
+.languages-text h2 {
    padding-bottom: 0;
- }
+}
 
- /* EDUCATION */
+/* EDUCATION */
 
- #education {
+#education {
    grid-template-columns: 40% 60%;
    margin-right: 10vw;
    margin-left: 10vw;
    height: 37.5vh;
    background-image: none;
- }
+}
 
- .education-image {
+.education-image {
    grid-column: 1 / span 1;
    height: 28vh;
- }
+}
 
- .education-image img {
+.education-image img {
    height: 100%;
    width: 100%;
    object-fit: contain;
- }
+}
 
- .education-text {
+.education-text {
    grid-column: 2 / span 1;
    padding-top: 0;
    color: rgb(51, 49, 49);
    font-size: 1.05rem;
- }
+}
 
- /* EXPERIENCE */
+/* EXPERIENCE */
 
- #experience {
+#experience {
    position: relative;
    display: block;
    margin-top: 0;
@@ -142,21 +142,21 @@
    margin-right: 10vw;
    height: 40vh;
    background-image: none;
- }
+}
 
- .experience-image {
+.experience-image {
    position: absolute;
    right: 0;
    top: 6vh;
    display: none;
    height: 28vh;
- }
+}
 
- .experience-image img {
+.experience-image img {
    width: 40vw;
- }
+}
 
- #experience table td {
+#experience table td {
    padding-bottom: 1.2vh;
    min-width: 15vw;
    font-size: 1rem;

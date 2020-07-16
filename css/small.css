@@ -6,21 +6,21 @@
    grid-template-columns: 40% 60%;
    margin-left: 2vw;
    height: 40vh;
- }
+}
  
- .about-me-photo img {
+.about-me-photo img {
    height: 40vh;
- }
+}
 
- .about-me-text {
+.about-me-text {
    margin-right: 5vw;
- }
+}
  
- .about-me-h2 h2 {
+.about-me-h2 h2 {
    font-size: 1rem;
- }
+}
  
- .about-me-text p {
+.about-me-text p {
    padding-top: 3vh;
    font-size: 1rem;
- }
+}
