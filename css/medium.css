@@ -11,17 +11,21 @@
 #about-me {
    grid-template-columns: 40% 60%;
    margin-left: 10vw;
-   height: 40vh;
+   margin-top: 2vh;
+   height: 35vw;
+   width: 78vw;
    border: 1px solid rgb(170, 166, 166);
+   border-radius: 2%;
+   background-color: #ececec;
 }
- 
+
 .about-me-photo img {
-   margin-top: -3vh;
-   height: 35vh;
+   margin-top: 2%;
+   height: 90%;
 }
 
 .about-me-text {
-   margin-right: 10vw;
+   margin-right: 1.5vw;
    margin-top: -1vh;
 }
  
@@ -32,7 +36,7 @@
  
 .about-me-text p {
    padding-top: 2vh;
-   font-size: 1.2rem;
+   font-size: 1.1rem;
 }
 
 .hero-bg {
@@ -47,7 +51,8 @@
 .mainBoxes {
    display: grid;
    grid-template-columns: 50% 50%;
-   height: 34vh;
+   height: 49vw;
+   background-color: #ececec;
 }
 
 .mainBoxes h2 {
@@ -92,12 +97,12 @@
 }
 
 .languages-text ul {
-   font-size: 1.2rem;
+   font-size: 1.05rem;
 }
 
 .languages-text a {
    color: rgb(51, 49, 49);;
-   font-size: 1.2rem;
+   font-size: 1.05rem;
 }
 
 .languages-text h2 {
@@ -110,13 +115,14 @@
    grid-template-columns: 40% 60%;
    margin-right: 10vw;
    margin-left: 10vw;
-   height: 37.5vh;
+   height: 49vh;
    background-image: none;
 }
 
 .education-image {
    grid-column: 1 / span 1;
    height: 28vh;
+   padding-left: 1vw;
 }
 
 .education-image img {
@@ -140,7 +146,7 @@
    margin-top: 0;
    margin-left: 10vw;
    margin-right: 10vw;
-   height: 40vh;
+   height: 55vh;
    background-image: none;
 }
 

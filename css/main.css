@@ -99,7 +99,7 @@ nav a:hover {
 .mainBoxes{
    position: relative;
    margin: 3vw;
-   height: 40vh;
+   height: 42vh;
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -231,7 +231,7 @@ footer a {
    }
 
    .mainBoxes {
-      height: 35vh;
+      height: 38vh;
    }
 
    #experience {

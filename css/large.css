@@ -24,15 +24,16 @@ main {
 /* ABOUT-ME */
 
 #about-me {
-   margin-top: 2vh;
+   margin-top: 3vh;
    padding-bottom: 10vh;
    width: 68vw;
-   height: 48vh;
+   height: 49vh;
    border-radius: 1%;
 }
 
 .about-me-photo img {
-   margin-top: 2vh;
+   margin-top: 2%;
+   height: 120%;
 }
 
 .about-me-h2 {
@@ -46,12 +47,12 @@ main {
 }
  
 .about-me-text {
-   margin-top: 2vh;
+   margin-top: -1%;
    margin-right: 5vw;
 }
 
 .about-me-text p {
-   font-size: 1.2rem;
+   font-size: 1.3rem;
 }
 
 /* LANGUAGES */
