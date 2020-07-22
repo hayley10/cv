@@ -51,7 +51,7 @@ nav a:hover {
    display: grid;
    grid-template-columns: 50% 50%;
    grid-template-rows: 20% 80%;
-   height: 50vh;
+   min-height: 50vh;
 }
 
 .about-me-photo img {

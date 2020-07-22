@@ -9,19 +9,29 @@
 /* ABOUT-ME */
 
 #about-me {
-   grid-template-columns: 40% 60%;
+   grid-template-columns: 35% 65%;
    margin-left: 10vw;
    margin-top: 2vh;
    height: 35vw;
    width: 78vw;
    border: 1px solid rgb(170, 166, 166);
-   border-radius: 2%;
    background-color: #ececec;
+   border-radius: 0%;
+   transition: transform 0.4s;
+}
+
+#about-me:hover {
+   transform: scale(1.05);
+}
+
+.about-me-photo {
+   grid-row: 1/3;
 }
 
 .about-me-photo img {
-   margin-top: 2%;
-   height: 90%;
+   height: 100%;
+   margin-top: 0;
+   object-fit: cover;
 }
 
 .about-me-text {
@@ -29,6 +39,10 @@
    margin-top: -1vh;
 }
  
+.about-me-h2 {
+   grid-column: 2/3;
+}
+
 .about-me-h2 h2 {
    padding-top: 0;
    font-size: 1.5rem;
@@ -40,10 +54,8 @@
 }
 
 .hero-bg {
-   position: absolute;
    display: none;
-   height: 0;
-   width: 0;
+   border-radius: 0%;
 }
 
 /* MAIN BOXES */
@@ -51,8 +63,13 @@
 .mainBoxes {
    display: grid;
    grid-template-columns: 50% 50%;
-   height: 49vw;
    background-color: #ececec;
+   height: 48vh;
+   transition: transform 0.4s;
+}
+
+.mainBoxes:hover {
+   transform: scale(1.05);
 }
 
 .mainBoxes h2 {
@@ -62,7 +79,15 @@
 
 .mainBoxes-image {
    display: block;
-   width: auto;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+}
+
+.mainBoxes-image img {
+   background-size: cover;
+   width: 100%;
+   height: 100%;
 }
 
 .mainBoxes table td {
@@ -75,25 +100,25 @@
    margin-top: 1vh;
    margin-right: 10vw;
    margin-left: 10vw;
+   margin-bottom: 0;
    background-image: none;
+   border-radius: 0%;
 }
 
 .languages-image {
-   grid-column: 2 / span 1;
-   padding-top: 5vh;
-   height: 30vh;
+   grid-column: 2 / 3;
 }
 
 .languages-image img {
-   height: 100%;
-   width: 100%;
-   object-fit: contain;
+   margin: 0;
 }
 
 .languages-text {
-   grid-column: 1 / span 1;
+   grid-column: 1 / 2;
    padding-top: 0;
    color: rgb(51, 49, 49);
+   height: 100%;
+   width: 100%;
 }
 
 .languages-text ul {
@@ -112,23 +137,17 @@
 /* EDUCATION */
 
 #education {
-   grid-template-columns: 40% 60%;
    margin-right: 10vw;
    margin-left: 10vw;
    height: 49vh;
    background-image: none;
+   border-radius: 0%;
 }
 
 .education-image {
-   grid-column: 1 / span 1;
-   height: 28vh;
-   padding-left: 1vw;
-}
-
-.education-image img {
-   height: 100%;
-   width: 100%;
-   object-fit: contain;
+   grid-column: 1 / 2;
+   padding: 0;
+   margin: 0;
 }
 
 .education-text {
